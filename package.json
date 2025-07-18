@@ -1,0 +1,33 @@
+{
+  "name": "bmad-roo-installer",
+  "version": "1.0.0",
+  "description": "One-command installer for BMAD + Roo Commander integration",
+  "main": "install-bmad-roo.sh",
+  "bin": {
+    "install-bmad-roo": "./install-bmad-roo.sh"
+  },
+  "scripts": {
+    "test": "echo \"Run ./install-bmad-roo.sh to test installation\"",
+    "install": "./install-bmad-roo.sh"
+  },
+  "keywords": [
+    "bmad",
+    "roo-commander", 
+    "agile",
+    "documentation",
+    "automation",
+    "ai-agents",
+    "workflow",
+    "installer"
+  ],
+  "author": "Antonio J. Reid",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AReid987/bmad-roo-installer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AReid987/bmad-roo-installer/issues"
+  },
+  "homepage": "https://github.com/AReid987/bmad-roo-installer#readme"
+}
